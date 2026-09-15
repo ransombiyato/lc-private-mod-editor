@@ -1,0 +1,3 @@
+plugins { id 'com.android.application' }
+android { namespace 'com.ribi.lcprivate'; compileSdk 35; defaultConfig { applicationId 'com.ribi.lcprivate'; minSdk 26; targetSdk 35; versionCode 2; versionName '2.0-safe-scan' } }
+dependencies { implementation 'androidx.appcompat:appcompat:1.7.0'; implementation 'androidx.activity:activity:1.10.1'; implementation 'androidx.documentfile:documentfile:1.0.1' }
